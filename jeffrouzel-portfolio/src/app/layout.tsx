@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Jeff Rouzel Portfolio",
-  description: "Personal Website of Jeff Rouzel Bat-og",
+description: "Personal Website of Jeff Rouzel Bat-og",
 };
 
 export default function RootLayout({
