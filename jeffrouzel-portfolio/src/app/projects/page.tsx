@@ -33,9 +33,9 @@ const projects = [
 ];
 
 export default function ProjectsPage() {
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-  const toggleExpand = (index) => {
+  const toggleExpand = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
