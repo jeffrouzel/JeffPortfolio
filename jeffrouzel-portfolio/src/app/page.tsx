@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero"
 import ContactFooter from "@/components/ContactFooter";
+import TechStackCarousel from "@/components/TechStackCarousel";
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
         <Navbar />
       </div>
       <Hero/>
+      <TechStackCarousel/>
       <ContactFooter/>
-      {/* Put Carousel tech stack here */}
     </div>
   );
 }
